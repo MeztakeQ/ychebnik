@@ -1,0 +1,171 @@
+@import 'global';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    // font-family: 'Comfortaa', cursive;
+    font-family: 'Koulen', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+
+.header {
+    text-align: center;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.header__inner {
+}
+.header__top {
+}
+.header__logo {
+}
+.header__logo-img {
+    width: 120px;
+}
+.header__logo-text {
+    color: #fff;
+    font-size: 20px;
+}
+.header__bottom {
+}
+.header__bottom-title {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+.header__bottom-text {
+    color: #000;
+}
+.main {
+    min-height: 100vh;
+    background-color: rgb(247, 226, 134);
+}
+.wrapper {
+    padding: 30px 0;
+}
+.wrapper__title {
+    font-family: 'Comfortaa', cursive;
+}
+.guide {
+}
+.guide__items {
+}
+.guide__item {
+}
+.guide__item-name{}
+.guide__list{}
+.guide__list-item{}
+.guide__list-link{
+    font-size: 12px;
+    color: rgb(36, 36, 36);
+    transition: .5s;
+    &:hover{
+        color: blue;
+    }
+}
+.guide__item-link {
+    font-size: 25px;
+    color: rgb(36, 36, 36);
+    transition: .5s;
+    &:hover{
+        color: blue;
+    }
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+.footer__inner {
+    display: flex;
+    justify-content: center;
+}
+.footer__left {
+}
+.footer__left-text {
+}
+.footer__right {
+    align-items: center;
+}
+.footer__list {
+    display: flex;
+    align-items: center;
+ 
+    
+}
+.footer__list-item {
+
+}
+
+
+.page {
+    padding: 50px ;
+}
+.page__title {
+    text-align: center;
+    min-width: 700px;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 20px; 
+    font-family: 'Koulen', cursive;
+}
+.page__items {
+}
+.page__item {
+    padding: 20px 0;
+
+}
+.page__item-text {
+    font-family: 'Comfortaa', cursive;  
+    font-size: 14px;
+
+}
+
+.page__top{
+    border-bottom: 4px solid #000;
+}

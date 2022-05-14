@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Koulen&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d2596c097.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__inner">
+            <div class="header__top">
+                <a class="header__logo" href="#">
+                    <img class="header__logo-img" src="../images/logo.png" alt="логотип">
+                </a>
+            </div>
+            <div class="header__bottom">
+                <p class="header__logo-text">ГАПОУ СО КАМЕНСК-УРАЛЬСКИЙ РАДИОТЕХНИЧЕСКИЙ ТЕХНИКУМ</p>
+                <h1 class="header__bottom-title">МАСТЕР ПО ОБРАБОТКЕ ЦИФРОВОЙ ИНФОРМАЦИИ</h1>
+                <p class="header__bottom-text">ПМ.01. ВВОД И ОБРАБОТКА ЦИФРОВОЙ ИНФОРМАЦИИ</p>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <main class="main">
+        <section class="page">
+            <div class="page__top">
+                <h2 class="page__title">
+                    Установка и настройка модема, настройка удаленного доступа к сети.
+                </h2>
+            </div>
+            <div class="page__items">
+                <div class="page__item">
+                    <p class="page__item-text">
+                        Удаленный доступ к компьютеру позволяет использовать ресурсы этого ПК, подключаясь к нему через локальную сеть или интернет. Если доступ в сеть компьютера осуществляется через DSL-модем, необходимо правильно настроить это оборудование.
+                    </p>
+                </div>
+
+
+                <div class="page__item">
+                    <p class="page__item-text">
+                        Инструкция
+                        1
+                        Подключите компьютер или ноутбук к DSL-модему. Используйте для этого порт Ethernet (LAN) сетевого оборудования. Откройте web-интерфейс настроек модема. Для этого введите его IP-адрес в поле браузера.
+                        2
+                        Введите логин и пароль и нажмите клавишу Enter. Изучите доступные меню интерфейса настроек DSL-модема. Откройте меню «Сеть» или Network. Найдите подменю NAT и перейдите к нему. Во вкладке «Основные» или General укажите режим работы устройства Only SUA. Выберите пункт «Прокладка маршрутов» или Port Forwarding.
+                        3
+                        В меню Rule Setup установите галочку рядом с пунктом Active. Это позволит вам самостоятельно задавать правила для сетевых соединений. В поле Service Name введите имя службы или команды, для которой создается данное правило. Стоит отметить, что не обязательно вводить оригинальное название. Это поле призвано помочь вам ориентироваться в созданных правилах.
+                        4
+                        Теперь выясните номер порта, который использует программа удаленного доступа. Это могут быть утилиты Radmin, Remote Desktop, VNC и так далее. Введите значение порта в следующие поля: External Port Start (End) и Internal Port Start (End).
+                        5
+                        В поле Server IP-Address введите значение IP-адреса того компьютера, к которому будет выполняться подключение. В вашем случае это адрес компьютера, с которого вы выполняете настройку модема.
+                        6
+                        Два раза нажмите кнопку Apply, чтобы сохранить заданные параметры. Откройте меню «Сеть» или Network и перейдите в подменю Client List. Найдите строку, в которой отображаются данные сетевой карты вашего ПК и установите галочку в поле Reserve. Нажмите кнопку Apply. Теперь DSL-модем будет всегда выдавать вашей сетевой карте тот IP-адрес, который используется в данный момент.
+                        7
+                        Откройте меню Security и выберите пункт Firewall. Нажмите кнопку Add, относящуюся к подменю Rules. Выберите тип правила WAN to LAN. Два раза введите номер порта, который использует программа удаленного доступа, и нажмите кнопку Apply. Перезагрузите модем и проверьте возможность осуществления удаленного подключения к вашему ПК.
+                    </p>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__center">
+                <p class="footer__center-text">
+                    ©2022
+                    MezTake All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
