@@ -232,11 +232,29 @@ body{
         height: 300px;
     }
 
+    .guide__box{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+
     .page{
         padding: 0 10px;
     }
 
     .guide__image img{
+        max-width: 350px;
+       border: 10px solid #fff;
+       transition: .5s;
+       
+       &:hover{
+           transform: scaleY(.9);
+       }
+        
+    }
+
+    .guide__images img{
         max-width: 350px;
        border: 10px solid #fff;
        transition: .5s;
@@ -267,12 +285,30 @@ body{
         height: 220px;
     }
 
+    .guide__box{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 220px;
+    }
+
     .page{
         padding: 10px 10px;
     }
 
     .guide__image img{
         max-width: 300px;
+       border: 10px solid #fff;
+       transition: .5s;
+       
+       &:hover{
+           transform: scaleY(.9);
+       }
+        
+    }
+
+    .guide__images img{
+        max-width: 350px;
        border: 10px solid #fff;
        transition: .5s;
        
