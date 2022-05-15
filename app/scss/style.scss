@@ -145,7 +145,7 @@ body{
     color: rgb(255, 255, 255);
     transition: .5s;
     &:hover{
-        color: blue;
+        color: rgb(255, 0, 0);
     }
 }
 .guide__item-link {
@@ -153,7 +153,7 @@ body{
     color: rgb(255, 255, 255);
     transition: .5s;
     &:hover{
-        color: blue;
+        color: rgb(255, 0, 0);
     }
 }
 .footer {
@@ -225,6 +225,15 @@ body{
         color: rgb(247, 231, 231);
     }
 
+    .guide__item-link {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        transition: .5s;
+        &:hover{
+            color: rgb(255, 0, 0);
+        }
+    }
+
     .guide__bo{
         display: flex;
         justify-content: space-around;
@@ -278,6 +287,15 @@ body{
         color: rgb(247, 231, 231);
     }
 
+    .guide__item-link {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        transition: .5s;
+        &:hover{
+            color: rgb(255, 0, 0);
+        }
+    }
+
     .guide__bo{
         display: flex;
         justify-content: space-around;
@@ -308,7 +326,7 @@ body{
     }
 
     .guide__images img{
-        max-width: 300px;
+        max-width: 200px;
        border: 10px solid #fff;
        transition: .5s;
        
