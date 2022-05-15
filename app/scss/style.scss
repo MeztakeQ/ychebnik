@@ -30,7 +30,12 @@ a{
 }
 
 li{
-    list-style: none;
+    
+}
+
+ol{
+   padding: 30px;
+   color: rgb(155, 155, 155);
 }
 
 ul{
@@ -77,17 +82,54 @@ body{
     font-family: 'Comfortaa', cursive;
 }
 .header__bottom-text {
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 .main {
     min-height: 100vh;
-    background-color: rgb(247, 226, 134);
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .wrapper {
     padding: 30px 0;
 }
 .wrapper__title {
     font-family: 'Comfortaa', cursive;
+    color: rgb(247, 231, 231);
+}
+
+.guide__box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.guide__bo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.guide__image img{
+    width: 500px;
+    border: 10px solid #fff;
+  
+     
+ }
+
+.guide__images{
+
+}
+
+.guide__images img{
+   width: 500px;
+   border: 10px solid #fff;
+   transition: .5s;
+   &:hover{
+       transform: scaleY(.9);
+   }
+    
 }
 .guide {
 }
@@ -99,8 +141,8 @@ body{
 .guide__list{}
 .guide__list-item{}
 .guide__list-link{
-    font-size: 12px;
-    color: rgb(36, 36, 36);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
     transition: .5s;
     &:hover{
         color: blue;
@@ -108,7 +150,7 @@ body{
 }
 .guide__item-link {
     font-size: 25px;
-    color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
     transition: .5s;
     &:hover{
         color: blue;
@@ -153,6 +195,7 @@ body{
     font-size: 30px;
     padding: 20px; 
     font-family: 'Koulen', cursive;
+    color: rgb(247, 231, 231);
 }
 .page__items {
 }
@@ -163,6 +206,7 @@ body{
 .page__item-text {
     font-family: 'Comfortaa', cursive;  
     font-size: 14px;
+    color: rgb(255, 255, 255);
 
 }
 
